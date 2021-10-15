@@ -1,7 +1,11 @@
 package com.epam.rd.autotasks.figures;
 
-abstract class Figure{
+abstract class Figure {
 
     public abstract Point centroid();
+
     public abstract boolean isTheSame(Figure figure);
+
+    public abstract double area();
+
 }

@@ -17,4 +17,9 @@ class Point {
         return y;
     }
 
+    public boolean compareTo(Point o) {
+
+        return (Math.round(this.x) == Math.round(o.getX())) & (Math.round(this.y) == Math.round(o.getY()));
+
+    }
 }
